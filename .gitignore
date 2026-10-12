@@ -1,0 +1,54 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# ─────────────────────────────────────────────
+# Environment & Secrets
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─────────────────────────────────────────────
+# Claude Code session data
+# ─────────────────────────────────────────────
+.claude/
+
+# ─────────────────────────────────────────────
+# Test / runtime artifacts
+# ─────────────────────────────────────────────
+payload.json
+response.json
+venv/
+venv
+# Local credentials and AWS environment helpers
+aws_env.sh
+.env
+.env.*
+!.env.example
+
+# Virtual environments and Python artifacts
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated deployment artifacts
+build/
+**/node_modules/
+**/cdk.out/
+agentcore/.cli/
+
+# Local editor and operating-system files
+.DS_Store
+
+# Local caches and runtime staging files
+.cache/
+**/.cache/
